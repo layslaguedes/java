@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class exe3 {
+public class LayslaGuedes_Execicio03 {
         public static void main (String[] args){
             Scanner ex = new Scanner(System.in);
 
