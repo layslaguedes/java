@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class exe6{
+public class LayslaGuedes_Execicio06{
     public static void main (String[] args){
         Scanner ex = new Scanner(System.in);
 
