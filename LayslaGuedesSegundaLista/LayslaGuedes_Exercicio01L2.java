@@ -4,7 +4,7 @@ package exercícioL2;
  * Autor: Laysla Anizio Guedes
  * Data: 17/05/2023
  */
-  // inicializando a class Scanner
+  // importação da class Scanner
  import java.util.Scanner;
 
  // inicialização da class principal
