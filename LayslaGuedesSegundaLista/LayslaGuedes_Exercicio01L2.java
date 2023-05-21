@@ -17,13 +17,16 @@ public class LayslaGuedes_Exercicio01L2 {
         num = 0.0;
         resul = 0.0;
         resul2 = 0.0;
-
+        
+         // recebendo e lendo os valores
         System.out.println(" Digite um valor: ");
         num= exe1.nextInt();
-
+      
+        // calculando o valor
         resul = (num/100)*15;
         resul2 = num - resul;
 
+         // mostrando o resultado
         System.out.println("O valor original: " + num);
         System.out.println("O valor com desconto: " + resul2);
 
