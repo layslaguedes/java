@@ -4,13 +4,15 @@ package exercícioL2;
  * Autor: Laysla Anizio Guedes
  * Data: 17/05/2023
  */
-
+  // inicializando a class Scanner
  import java.util.Scanner;
 
+ // inicialização da class principal
 public class LayslaGuedes_Exercicio01L2 {
     public static void main(String[]args){
         Scanner exe1 = new Scanner(System.in);
-
+     
+         // criação e inicialização das variáveis
         double num, resul, resul2;
         num = 0.0;
         resul = 0.0;
