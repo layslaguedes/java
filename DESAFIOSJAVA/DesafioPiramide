@@ -1,0 +1,31 @@
+/*Descrição: Piramide de numeros
+ * Autores: Anna Clara Maffei & Laysla Guedes
+ * Data: 13/06/2023 
+ */
+
+ //inicialização da class principal
+public class desafio2_Piramide {
+    public static void main (String[] args){
+
+        //criação e inicialização das variaveis
+        int linha=26;
+        char letra ='A';
+        char ponto = '.';
+       
+        // Espaços em branco antes dos caracteres
+        for(int x = 1; x <= linha; x++){ 
+                for(int z =1; z<=linha - x; z++){ 
+                        System.out.print(ponto);
+                }
+                // mostra os caractres alfabeticos em ordem crescente
+                    for(int y =1; y <= x; y++){
+                            System.out.print(letra+"");
+                            letra++;
+                    }
+                    letra ='A';
+
+                //pular para a proxima linha
+                System.out.println();
+        }
+    }
+}
